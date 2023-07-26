@@ -1,7 +1,14 @@
-h2 {
+/* h2 {
     color: white;
 }
-
+ */
 p {
-    color: yellowgreen;
+    color: rgb(205, 125, 50);
+    padding: 5px;
+}
+
+.title {
+    background-color: blueviolet;
+    color: wheat;
+    padding: 15px;
 }
