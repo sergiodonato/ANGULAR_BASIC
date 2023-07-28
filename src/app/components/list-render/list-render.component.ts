@@ -12,12 +12,6 @@ import { ListService } from 'src/app/service/list.service';
 export class ListRenderComponent {
   animals: Animal[] = [];
 
-  animal: Animal = {
-    name: 'Sergio',
-    type: 'Human',
-    age: 37,
-  };
-
   animalDetails = '';
 
   showAge(animal: Animal): void {
